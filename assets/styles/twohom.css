@@ -1,0 +1,71 @@
+.header {
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainstructure {
+    height: 310px;
+    width: 70%;
+    background-color: darkkhaki;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.aside {
+    height: 310px;
+    width: 30%;
+    background-color: goldenrod;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+}
+
+.footer {
+    height: 130px;
+    background-color: yellowgreen;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumslateblue;
+    height: 100px;
+    margin: 10px;
+}
+
+.note1 {
+    width: 45%;
+    float: left;
+}
+
+.note2 {
+    width: 45%;
+    float: right;
+}
+
+.note3 {
+    clear: both;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
